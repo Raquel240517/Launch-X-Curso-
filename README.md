@@ -2,4 +2,4 @@
 Subir Katas (ejercicios)
 By: Raquel Sanchez 
 
-Actualizacion 06/02/22
+Actualizacion 11/02/22
