@@ -1,0 +1,143 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Prueba la nueva tecnología PowerShell multiplataforma https://aka.ms/pscore6
+
+PS C:\Users\Raquel Paulina> cd Documents/KATA2     
+PS C:\Users\Raquel Paulina\Documents\KATA2> venv
+correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (venv:String) [], CommandNotFoundException
+PS C:\Users\Raquel Paulina\Documents\KATA2> python3 -m venv env
+No se encontr¾ Python; ejecuta sin argumentos para instalar desde Microsoft Store o deshabilita este acceso directo en Configuraci¾n > Administrar alias de ejecuci¾n de la aplicaci¾n.
+PS C:\Users\Raquel Paulina\Documents\KATA2> python3 -m venv env
+No se encontr¾ Python; ejecuta sin argumentos para instalar desde Microsoft Store o deshabilita este acceso directo en Configuraci¾n > Administrar alias de ejecuci¾n de la aplicaci¾n.
+PS C:\Users\Raquel Paulina\Documents\KATA2> python3
+PS C:\Users\Raquel Paulina\Documents\KATA2> Python3.10 -m venv env
+escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Python3.10:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+PS C:\Users\Raquel Paulina\Documents\KATA2> python3 -m venv env
+No se encontr¾ Python; ejecuta sin argumentos para instalar desde Microsoft Store o deshabilita este acceso directo en Configuraci¾n > Administrar alias de ejecuci¾n de la aplicaci¾n.
+PS C:\Users\Raquel Paulina\Documents\KATA2> Python3.10.2 -m venv env
+escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Python3.10.2:String) [], CommandNotFoundException
+PS C:\Users\Raquel Paulina\Documents\KATA2> python -m venv env
+No se encontr¾ Python; ejecuta sin argumentos para instalar desde Microsoft Store o deshabilita este acceso directo en Configuraci¾n > Administrar alias de ejecuci¾n de la aplicaci¾n.
+PS C:\Users\Raquel Paulina\Documents\KATA2> python -m venv env
+No se encontr¾ Python; ejecuta sin argumentos para instalar desde Microsoft Store o deshabilita este acceso directo en Configuraci¾n > Administrar alias de ejecuci¾n de la aplicaci¾n.
+PS C:\Users\Raquel Paulina\Documents\KATA2> py -m venv env
+env\bin\activate : El módulo 'env' no pudo cargarse. Para obtener más información, ejecute 'Import-Module env'.
+En línea: 1 Carácter: 1
++ env\bin\activate
++ ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (env\bin\activate:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CouldNotAutoLoadModule
+ 
+PS C:\Users\Raquel Paulina\Documents\KATA2> env\Scripts\activate
+env\Scripts\activate : No se puede cargar el archivo C:\Users\Raquel Paulina\Documents\KATA2\env\Scripts\Activate.ps1 porque la ejecución de 
+https:/go.microsoft.com/fwlink/?LinkID=135170.
+En línea: 1 Carácter: 1
++ env\Scripts\activate
++ ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : SecurityError: (:) [], PSSecurityException
+    + FullyQualifiedErrorId : UnauthorizedAccess
+PS C:\Users\Raquel Paulina\Documents\KATA2> .\bin\activate^C
+.env\bin\activate : El módulo '.env' no pudo cargarse. Para obtener más información, ejecute 'Import-Module .env'.
+En línea: 1 Carácter: 1
++ .env\bin\activate
++ ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.env\bin\activate:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CouldNotAutoLoadModule
+ 
+.env\Scripts\activate : El módulo '.env' no pudo cargarse. Para obtener más información, ejecute 'Import-Module .env'.
+En línea: 1 Carácter: 1
++ .env\Scripts\activate
++ ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.env\Scripts\activate:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CouldNotAutoLoadModule
+ 
+PS C:\Users\Raquel Paulina\Documents\KATA2> env\Scripts\activate
+scripts está deshabilitada en este sistema. Para obtener más información, consulta el tema about_Execution_Policies en 
+https:/go.microsoft.com/fwlink/?LinkID=135170.
+En línea: 1 Carácter: 1
++ env\Scripts\activate
++ ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : SecurityError: (:) [], PSSecurityException
+    + FullyQualifiedErrorId : UnauthorizedAccess
+PS C:\Users\Raquel Paulina\Documents\KATA2> env\Scripts\Activate
+https:/go.microsoft.com/fwlink/?LinkID=135170.
+En línea: 1 Carácter: 1
++ env\Scripts\Activate
++ ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : SecurityError: (:) [], PSSecurityException
+    + FullyQualifiedErrorId : UnauthorizedAccess
+PS C:\Users\Raquel Paulina\Documents\KATA2> env\Scripts\Activate
+(env) PS C:\Users\Raquel Paulina\Documents\KATA2> pip install python-dateutil
+Collecting python-dateutil
+Collecting six>=1.5
+  Using cached six-1.16.0-py2.py3-none-any.whl (11 kB)
+Installing collected packages: six, python-dateutil
+Successfully installed python-dateutil-2.8.2 six-1.16.0
+WARNING: You are using pip version 21.2.4; however, version 22.0.3 is available.
+You should consider upgrading via the 'C:\Users\Raquel Paulina\Documents\KATA2\env\Scripts\python.exe -m pip install --upgrade pip' command.        
+(env) PS C:\Users\Raquel Paulina\Documents\KATA2> python-dateutil==2.8.2
+>>   six==1.16.0
+python-dateutil==2.8.2 : El término 'python-dateutil==2.8.2' no se reconoce como nombre de un cmdlet, función, archivo de script o programa 
+ejecutable. Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de     
+nuevo.
+En línea: 1 Carácter: 1
++ python-dateutil==2.8.2
++ ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (python-dateutil==2.8.2:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de nuevo.
+En línea: 2 Carácter: 3
++   six==1.16.0
++   ~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (six==1.16.0:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+(env) PS C:\Users\Raquel Paulina\Documents\KATA2> python-dateutil==2.8.2
+python-dateutil==2.8.2 : El término 'python-dateutil==2.8.2' no se reconoce como nombre de un cmdlet, función, archivo de script o programa 
+nuevo.
+En línea: 1 Carácter: 1
++ ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (python-dateutil==2.8.2:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+python-dateutil==2.8.2
+six==1.16.0
+Requirement already satisfied: python-dateutil in c:\users\raquel paulina\documents\kata2\env\lib\site-packages (2.8.2)
+Requirement already satisfied: six>=1.5 in c:\users\raquel paulina\documents\kata2\env\lib\site-packages (from python-dateutil) (1.16.0)
+WARNING: You are using pip version 21.2.4; however, version 22.0.3 is available.
+You should consider upgrading via the 'C:\Users\Raquel Paulina\Documents\KATA2\env\Scripts\python.exe -m pip install --upgrade pip' command.        
+(env) PS C:\Users\Raquel Paulina\Documents\KATA2> pip freeze
+python-dateutil==2.8.2
+six==1.16.0
+(env) PS C:\Users\Raquel Paulina\Documents\KATA2> deactive
+deactive : El término 'deactive' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si escribió   
+correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ deactive
++ ~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (deactive:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+(env) PS C:\Users\Raquel Paulina\Documents\KATA2> env\Scripts\deactive
+env\Scripts\deactive : El módulo 'env' no pudo cargarse. Para obtener más información, ejecute 'Import-Module env'.
+En línea: 1 Carácter: 1
++ env\Scripts\deactive
++ ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (env\Scripts\deactive:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CouldNotAutoLoadModule
+ 
+(env) PS C:\Users\Raquel Paulina\Documents\KATA2> deactivate
+PS C:\Users\Raquel Paulina\Documents\KATA2> 
